@@ -35,7 +35,7 @@ from InflexMusic.utils.exceptions import AssistantErr
 from InflexMusic.utils.formatters import check_duration, seconds_to_min, speed_converter
 from InflexMusic.utils.inline.play import stream_markup
 from InflexMusic.utils.stream.autoclear import auto_clean
-from InflexMusic.utils.thumbnails import get_thumb
+from InflexMusic.utils.thumbnails import gen_thumb
 from strings import get_string
 
 autoend = {}
